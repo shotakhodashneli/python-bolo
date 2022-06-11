@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %} Log In {% endblock %}
+
+{% block content %}
+    <div class="registration">
+
+        <form action="" method="post">
+            <div class="b">
+                <label id="label1" class="heh" for="username">Username</label>
+                <input id="placeHolder" class="text-input" type="text" name="username" id="username"
+                       placeholder="Enter your Username">
+            </div>
+            <div class="b">
+                <label class="heh" for="pass">Password</label>
+                <div class="flexBox">
+                    <input id="label-click" class="text-input" type="password" name="pass" id="pass">
+                    <img class="imgClick" src="static/79.png"></span>
+
+                </div>
+
+            </div>
+            <div class="b">
+                <input type="checkbox" name="save" id="save">
+                <label for="save">Remember</label>
+
+            </div>
+            <button class="btn" type="submit">Log-in</button>
+            <a href="/registration">Registration</a>
+
+        </form>
+
+        {% with messages = get_flashed_messages() %}
+            {% for message in messages %}
+                <div class="alert alert-primary ml-5 mr-5 max-width alert-dismissible fade show"
+                     role="alert">
+                    {{ message }}
+                </div>
+            {% endfor %}
+
+        {% endwith %}
+
+
+    </div>
+
+    <script src="static/registration.js"></script>
+{% endblock %}

@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block title %} Profile {% endblock %}
+
+{% block content %}
+    <p class="username">{{ session['username'] }}</p>
+    <a href="/logout" class="btn-logout">Log Out</a>
+{% endblock %}

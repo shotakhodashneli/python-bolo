@@ -1,0 +1,441 @@
+/* history */
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+#header {
+    background-color: #333;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+
+
+
+}
+ul{
+    list-style-type: none;
+
+    display: flex;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+.a1{
+  margin-left: 50px;
+  text-decoration: none;
+
+}
+
+
+
+
+a{
+  text-decoration: none;
+}
+.dropdown-1 li{
+    display: none;
+    background-color: rgb(138, 55, 55);
+    font-size: 15px;
+    width: 76px;
+
+
+  }
+  .dropdown-1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+
+  }
+
+  .dropdown-1 a{
+    display: flex;
+    justify-content:center;
+  }
+  header li:hover .dropdown-1 > li{
+    display: block;
+    top: 0px;
+  }
+
+/* main */
+
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+#header {
+    background-color: #333;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+
+
+
+}
+ul{
+    list-style-type: none;
+
+    display: flex;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+.a1{
+  margin-left: 50px;
+  text-decoration: none;
+
+}
+
+
+
+body{background-color: rgb(0, 0, 0);
+}
+a{
+  text-decoration: none;
+}
+
+.glonti{
+  color: rgb(48, 132, 96);
+  background-image:url(fili.png);
+  background-size: 1000px;
+  height: 385px;
+  width:100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+
+}
+
+.lasha{
+  font-size: 20px;
+  color: rgb(221, 25, 25);
+  cursor: pointer;
+
+}
+
+.la2003{
+  cursor: pointer;
+
+}
+header li:hover .dropdown-1 > li{
+  display: block;
+  top: 0px;
+}
+.dropdown-1 li{
+  display: none;
+  background-color: rgb(138, 55, 55);
+  font-size: 15px;
+  width: 76px;
+
+
+}
+.dropdown-1{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+
+}
+
+.dropdown-1 a{
+  display: flex;
+  justify-content:center;
+}
+
+#kac{
+  color: rgb(4, 4, 4);
+  text-decoration: underline;
+}
+.kac1{
+  background-color: rgb(193, 192, 189);
+  margin: 0;
+  height: 640px;
+}
+#kac2{
+   color: rgb(63, 69, 69);
+   margin:10px;
+   margin-left: 20px;
+   font-size: large;
+   position: relative;
+}
+
+#deda1{
+
+  text-decoration:underline;
+
+}
+.cotne1{
+  width: 100%;
+  height: 800px;
+
+  margin: 0;
+
+
+
+
+  cursor: pointer;
+
+}
+#deda{
+  background-color: rgb(193, 192, 189);
+
+}
+
+.deda5{
+  margin-top: 20px;
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+
+}
+.deda6{
+  margin: 20px;
+  margin-bottom: 0;
+  font-size: large;
+}
+.mari{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+
+}
+.mari2{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+
+
+}
+.mari3{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+
+
+}
+
+.luka{
+
+  height: 800px;
+
+
+
+}
+.maka{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.luka1{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+
+}
+.luka2{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+}
+.luka3{
+  cursor: pointer;
+  position: center;
+  height: 300px;
+  border: 1px solid rgb(29, 28, 28);
+  border-radius: 20px;
+}
+
+.maka1{
+  display: flex;
+  justify-content: space-around;
+
+}
+.r4{
+  color: red;
+}
+.hamburger{
+
+  cursor: pointer;
+  display: none;
+
+
+
+}
+.bar{
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition-:all 0.3s ease-in-out ;
+  background-color: white;
+
+}
+@media(max-width:768px){
+  .hamburger{
+      display: block;
+      margin: auto;
+  }
+  .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1){
+      transform:translateY(8px)rotate(45deg) ;
+  }
+  .hamburger.active .bar:nth-child(3){
+      transform:translateY(-8px)rotate(-45deg) ;
+  }
+  .menu{
+      position: absolute;
+      flex-direction: column;
+      width: 100%;
+      background-color: brown;
+      align-items: center;
+      transition: 0.3s;
+      top: 70px;
+      left: -100%;
+      z-index: 2;
+  }
+
+  li{
+      margin: 3px 0;
+
+
+  }
+  .menu.active{
+      left: 0;
+  }
+
+
+
+}
+.hamburger.active .z-index{
+
+    z-index: 1;
+
+
+}
+.hamburger.active .menu{
+
+  z-index: 2;
+
+
+}
+
+
+/* registration/authorization */
+
+.registration{
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid red;
+    margin: 0 auto;
+    background: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.registration .heh{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.b{
+    margin-bottom: 15px;
+
+}
+.registration .text-input{
+    height:30px ;
+    width: 100% ;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: red;
+    border-radius: 10px;
+
+
+
+    box-sizing: border-box;
+
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(136, 136, 209);
+    color: brown;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(27, 247, 3);
+}
+#label1{
+    display: flex;
+    justify-content: center;
+}
+img{
+
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 10px;
+
+
+}
+.flexBox{
+    display: flex;
+
+
+}
+button{
+    margin-bottom: 10px;
+}
+
+.username {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.btn-logout {
+    height: 30px;
+    background-color: rgb(136, 136, 209);
+    color: brown;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/**/

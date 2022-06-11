@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>{% block title %} Apple {% endblock %}</title>
+</head>
+<body>
+<header id="header">
+    <a class="a1 " href="/"><img src="static/lasha6.png"></a>
+
+
+    <nav class="nav">
+        <ul class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a class="lizi" href="/history">History</a></li>
+            {#            <li><a href="#deda">Mac</a></li>#}
+            {#            <li><a href="index.html">Car</a></li>#}
+            {#            <li><a href="#">iPhone </a>#}
+            {#                <ul class="dropdown-1">#}
+            {#                    <li><a href="#">Cheap</a>#}
+            {#                    <li><a href="#">Normal</a>#}
+            {#                    <li><a class="lasha4" href="#">Expensive</a>#}
+            {##}
+            {##}
+            {#                </ul>#}
+            {##}
+            {#            </li>#}
+
+            {% if 'username' in session %}
+                <li><a href="/profile">Profile</a></li>
+            {% else %}
+                <li><a href="/login">Log-in</a></li>
+            {% endif %}
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+        </div>
+
+
+    </nav>
+
+
+</header>
+
+{% block content %}
+
+{% endblock %}
+
+<script src="lasha.js">
+
+</script>
+</body>
+</html>
